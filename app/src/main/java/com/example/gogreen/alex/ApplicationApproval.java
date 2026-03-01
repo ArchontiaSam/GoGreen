@@ -1,10 +1,9 @@
-package com.example.gameapp.alex;
+package com.example.gogreen.alex;
 
 import android.content.ContentValues;
 
-import com.example.gameapp.MainActivity;
-import com.example.gameapp.arxontia.userProfile;
-import com.example.gameapp.db.SQLiteConnection;
+import com.example.gogreen.MainActivity;
+import com.example.gogreen.db.SQLiteConnection;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -17,14 +16,10 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.gameapp.R;
-import com.example.gameapp.db.SQLiteConnection;
-import com.example.gameapp.db.ShownResultsContract;
-import com.example.gameapp.giannis.StatisticsAdmin;
-import com.example.gameapp.tzouliano.FormRegister;
+import com.example.gogreen.R;
+import com.example.gogreen.db.ShownResultsContract;
+import com.example.gogreen.giannis.StatisticsAdmin;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-
-import org.w3c.dom.Text;
 
 public class ApplicationApproval extends AppCompatActivity {
     // ContentValues userValues: the database values for the current user (username, glassQuantity, etc)

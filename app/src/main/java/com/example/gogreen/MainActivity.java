@@ -1,7 +1,5 @@
-package com.example.gameapp;
+package com.example.gogreen;
 
-import android.content.Context;
-import android.content.ContextWrapper;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -11,11 +9,10 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.gameapp.alex.ApplicationApproval;
-import com.example.gameapp.arxontia.userProfile;
-import com.example.gameapp.christosBackup.RegisterUser;
-import com.example.gameapp.db.SQLiteConnection;
-import com.example.gameapp.tzouliano.FormRegister;
+import com.example.gogreen.alex.ApplicationApproval;
+import com.example.gogreen.christosBackup.RegisterUser;
+import com.example.gogreen.db.SQLiteConnection;
+import com.example.gogreen.tzouliano.FormRegister;
 //ANDROID STUDIO VERSION : Flamingo // 2022.2.1
 public class MainActivity extends AppCompatActivity {
     SQLiteConnection lite; // SQLite connection instance

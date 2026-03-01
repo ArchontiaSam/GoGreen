@@ -1,4 +1,4 @@
-package com.example.gameapp.db;
+package com.example.gogreen.db;
 
 import android.content.ContentValues;
 import android.content.Context;

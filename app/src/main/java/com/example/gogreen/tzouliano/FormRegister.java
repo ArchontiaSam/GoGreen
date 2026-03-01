@@ -1,11 +1,11 @@
-package com.example.gameapp.tzouliano;
+package com.example.gogreen.tzouliano;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.gameapp.MainActivity;
-import com.example.gameapp.arxontia.userProfile;
-import com.example.gameapp.db.SQLiteConnection;
+import com.example.gogreen.MainActivity;
+import com.example.gogreen.arxontia.userProfile;
+import com.example.gogreen.db.SQLiteConnection;
 
 import android.content.Intent;
 import android.content.res.AssetManager;
@@ -16,7 +16,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.gameapp.R;
+import com.example.gogreen.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import org.w3c.dom.Document;

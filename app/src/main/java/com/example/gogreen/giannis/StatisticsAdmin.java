@@ -1,29 +1,21 @@
-package com.example.gameapp.giannis;
+package com.example.gogreen.giannis;
 
-import android.annotation.SuppressLint;
 import android.content.ContentValues;
 import android.content.Intent;
-import android.database.Cursor;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.text.Layout;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import androidx.annotation.DrawableRes;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import com.example.gameapp.MainActivity;
-import com.example.gameapp.MainActivity;
-import com.example.gameapp.R;
-import com.example.gameapp.alex.ApplicationApproval;
-import com.example.gameapp.db.SQLiteConnection;
-import com.example.gameapp.db.ShownResultsContract;
+import com.example.gogreen.MainActivity;
+import com.example.gogreen.R;
+import com.example.gogreen.alex.ApplicationApproval;
+import com.example.gogreen.db.SQLiteConnection;
+import com.example.gogreen.db.ShownResultsContract;
 import com.github.mikephil.charting.charts.PieChart;
 import com.github.mikephil.charting.components.Legend;
 import com.github.mikephil.charting.data.PieData;

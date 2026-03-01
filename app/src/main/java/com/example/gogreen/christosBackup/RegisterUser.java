@@ -1,9 +1,8 @@
-package com.example.gameapp.christosBackup;
+package com.example.gogreen.christosBackup;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.gameapp.MainActivity;
-import com.example.gameapp.db.SQLiteConnection;
+import com.example.gogreen.db.SQLiteConnection;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,8 +11,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.gameapp.R;
-import com.example.gameapp.tzouliano.FormRegister;
+import com.example.gogreen.R;
+import com.example.gogreen.tzouliano.FormRegister;
 
 public class RegisterUser extends AppCompatActivity {
     private String username; // Variable to store the username

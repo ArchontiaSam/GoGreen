@@ -1,4 +1,4 @@
-package com.example.gameapp;
+package com.example.gogreen;
 
 import android.content.Context;
 

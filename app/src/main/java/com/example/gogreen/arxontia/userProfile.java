@@ -1,4 +1,4 @@
-package com.example.gameapp.arxontia;
+package com.example.gogreen.arxontia;
 
 
 import android.content.ContentValues;
@@ -8,21 +8,19 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
 import android.widget.ProgressBar;
-import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.gameapp.MainActivity;
-import com.example.gameapp.R;
-import com.example.gameapp.db.SQLiteConnection;
-import com.example.gameapp.db.ShownResultsContract;
-import com.example.gameapp.tzouliano.FormRegister;
+import com.example.gogreen.MainActivity;
+import com.example.gogreen.R;
+import com.example.gogreen.db.SQLiteConnection;
+import com.example.gogreen.db.ShownResultsContract;
+import com.example.gogreen.tzouliano.FormRegister;
 import com.github.mikephil.charting.charts.PieChart;
 import com.github.mikephil.charting.components.Legend;
 import com.github.mikephil.charting.components.LegendEntry;
